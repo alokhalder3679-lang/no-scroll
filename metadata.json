@@ -1,0 +1,6 @@
+{
+  "name": "NoScroll",
+  "description": "Mindful short-video and reel blocker with real-time accessibility detection, customizable protection plans, daily limits, and behavioral analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

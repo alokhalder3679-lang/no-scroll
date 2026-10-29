@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NoScroll</string>
+    <string name="accessibility_service_description">NoScroll inspects active window view hierarchies in real time to detect short-form video feeds (Reels, Shorts, TikTok, Spotlight) and automatically execute your chosen protection plan without collecting personal data.</string>
+    <string name="accessibility_service_label">NoScroll Short Video Shield</string>
+    <string name="device_admin_label">NoScroll Anti-Tamper Protection</string>
+    <string name="device_admin_description">Enables screen-lock block mode and prevents impulsive uninstallation while strict focus or PIN lock is active.</string>
+    <string name="notification_channel_name">NoScroll Active Shield</string>
+    <string name="notification_channel_desc">Displays current short-video protection status and active session timers.</string>
+    <string name="dashboard_title">NoScroll Shield</string>
+    <string name="tab_dashboard">Shield</string>
+    <string name="tab_platforms">Platforms</string>
+    <string name="tab_limits">Limits</string>
+    <string name="tab_mindful">Mindful</string>
+    <string name="tab_analytics">Analytics</string>
+    <string name="tab_settings">Settings</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Shield Silhouette centered in 66dp safe zone -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M54,24 L78,34 L78,52 C78,69.5 67.8,83.2 54,88 C40.2,83.2 30,69.5 30,52 L30,34 Z" />
+    <!-- Inner Dark Cutout -->
+    <path
+        android:fillColor="#0B131E"
+        android:pathData="M54,30 L72,38 L72,52 C72,65.5 64.2,76.8 54,81 C43.8,76.8 36,65.5 36,52 L36,38 Z" />
+    <!-- Mindful Pause Bars inside Shield -->
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M46,44 L51,44 L51,64 L46,64 Z M57,44 L62,44 L62,64 L57,64 Z" />
+</vector>

@@ -1,0 +1,417 @@
+[
+  {
+    "id": "youtube_shorts",
+    "name": "YouTube Shorts",
+    "category": "Video & Streaming",
+    "packageName": "com.google.android.youtube",
+    "defaultBlockMode": "PRESS_BACK",
+    "enabledByDefault": true,
+    "detectors": [
+      { "type": "FINDBYID", "value": "com.google.android.youtube:id/reel_player_underlay" },
+      { "type": "FINDBYID", "value": "com.google.android.youtube:id/reel_progress_bar" },
+      { "type": "VIEWID_RES_NAME", "value": "reel_player_underlay" }
+    ]
+  },
+  {
+    "id": "youtube_revanced",
+    "name": "YouTube Vanced / ReVanced",
+    "category": "Video & Streaming",
+    "packageName": "app.revanced.android.youtube",
+    "defaultBlockMode": "PRESS_BACK",
+    "enabledByDefault": true,
+    "detectors": [
+      { "type": "FINDBYID", "value": "app.revanced.android.youtube:id/reel_player_underlay" },
+      { "type": "VIEWID_RES_NAME", "value": "reel_player_underlay" }
+    ]
+  },
+  {
+    "id": "instagram_reels",
+    "name": "Instagram Reels",
+    "category": "Social Networks",
+    "packageName": "com.instagram.android",
+    "defaultBlockMode": "PRESS_BACK",
+    "enabledByDefault": true,
+    "detectors": [
+      { "type": "FINDBYID", "value": "com.instagram.android:id/clips_viewer_view_pager" },
+      { "type": "FINDBYID", "value": "com.instagram.android:id/like_button" },
+      { "type": "VIEWID_RES_NAME", "value": "clips_viewer_view_pager" }
+    ]
+  },
+  {
+    "id": "instagram_stories",
+    "name": "Instagram Stories",
+    "category": "Social Networks",
+    "packageName": "com.instagram.android",
+    "defaultBlockMode": "PRESS_BACK",
+    "enabledByDefault": false,
+    "detectors": [
+      { "type": "FINDBYID", "value": "com.instagram.android:id/reel_viewer_title" },
+      { "type": "VIEWID_RES_NAME", "value": "reel_viewer_title" }
+    ]
+  },
+  {
+    "id": "instagram_explore",
+    "name": "Instagram Explore / Search",
+    "category": "Social Networks",
+    "packageName": "com.instagram.android",
+    "defaultBlockMode": "PRESS_BACK",
+    "enabledByDefault": false,
+    "detectors": [
+      { "type": "FINDBYID", "value": "com.instagram.android:id/action_bar_search_edit_text" },
+      { "type": "VIEWID_RES_NAME", "value": "action_bar_search_edit_text" }
+    ]
+  },
+  {
+    "id": "tiktok",
+    "name": "TikTok",
+    "category": "Short Video",
+    "packageName": "com.zhiliaoapp.musically",
+    "defaultBlockMode": "KILL_APP",
+    "enabledByDefault": true,
+    "detectors": [
+      { "type": "FINDBYID", "value": "com.zhiliaoapp.musically:id/desc" },
+      { "type": "VIEWID_RES_NAME", "value": "desc" }
+    ]
+  },
+  {
+    "id": "tiktok_lite",
+    "name": "TikTok Lite",
+    "category": "Short Video",
+    "packageName": "com.zhiliaoapp.musically.go",
+    "defaultBlockMode": "KILL_APP",
+    "enabledByDefault": true,
+    "detectors": [
+      { "type": "FINDBYID", "value": "com.zhiliaoapp.musically.go:id/desc" },
+      { "type": "VIEWID_RES_NAME", "value": "desc" }
+    ]
+  },
+  {
+    "id": "douyin",
+    "name": "Douyin",
+    "category": "Short Video",
+    "packageName": "com.ss.android.ugc.aweme",
+    "defaultBlockMode": "KILL_APP",
+    "enabledByDefault": true,
+    "detectors": [
+      { "type": "FINDBYID", "value": "com.ss.android.ugc.aweme:id/desc" },
+      { "type": "VIEWID_RES_NAME", "value": "desc" }
+    ]
+  },
+  {
+    "id": "facebook_reels",
+    "name": "Facebook Reels / Video",
+    "category": "Social Networks",
+    "packageName": "com.facebook.katana",
+    "defaultBlockMode": "PRESS_BACK",
+    "enabledByDefault": true,
+    "detectors": [
+      { "type": "CONT_DESC", "value": "Add a comment…" },
+      { "type": "CONT_DESC", "value": "Add a comment..." },
+      { "type": "CONT_DESC", "value": "Añadir un comentario…" }
+    ]
+  },
+  {
+    "id": "facebook_lite",
+    "name": "Facebook Lite Reels",
+    "category": "Social Networks",
+    "packageName": "com.facebook.lite",
+    "defaultBlockMode": "PRESS_BACK",
+    "enabledByDefault": true,
+    "detectors": [
+      { "type": "CONT_DESC", "value": "Add a comment…" },
+      { "type": "CONT_DESC", "value": "Reels" }
+    ]
+  },
+  {
+    "id": "snapchat_spotlight",
+    "name": "Snapchat Spotlight",
+    "category": "Messaging & Stories",
+    "packageName": "com.snapchat.android",
+    "defaultBlockMode": "PRESS_BACK",
+    "enabledByDefault": true,
+    "detectors": [
+      { "type": "FINDBYID", "value": "com.snapchat.android:id/spotlight_view_count" },
+      { "type": "FINDBYID", "value": "com.snapchat.android:id/favorite" },
+      { "type": "VIEWID_RES_NAME", "value": "spotlight_view_count" }
+    ]
+  },
+  {
+    "id": "snapchat_stories",
+    "name": "Snapchat Stories",
+    "category": "Messaging & Stories",
+    "packageName": "com.snapchat.android",
+    "defaultBlockMode": "PRESS_BACK",
+    "enabledByDefault": false,
+    "detectors": [
+      { "type": "FINDBYID", "value": "com.snapchat.android:id/view_profile" },
+      { "type": "VIEWID_RES_NAME", "value": "view_profile" }
+    ]
+  },
+  {
+    "id": "whatsapp_status",
+    "name": "WhatsApp Status",
+    "category": "Messaging & Stories",
+    "packageName": "com.whatsapp",
+    "defaultBlockMode": "PRESS_BACK",
+    "enabledByDefault": false,
+    "detectors": [
+      { "type": "FINDBYID", "value": "com.whatsapp:id/status_header" },
+      { "type": "VIEWID_RES_NAME", "value": "status_header" }
+    ]
+  },
+  {
+    "id": "whatsapp_business_status",
+    "name": "WhatsApp Business Status",
+    "category": "Messaging & Stories",
+    "packageName": "com.whatsapp.w4b",
+    "defaultBlockMode": "PRESS_BACK",
+    "enabledByDefault": false,
+    "detectors": [
+      { "type": "FINDBYID", "value": "com.whatsapp.w4b:id/status_header" },
+      { "type": "VIEWID_RES_NAME", "value": "status_header" }
+    ]
+  },
+  {
+    "id": "x_twitter_reels",
+    "name": "X (Twitter) Vertical Video",
+    "category": "Social Networks",
+    "packageName": "com.twitter.android",
+    "defaultBlockMode": "PRESS_BACK",
+    "enabledByDefault": true,
+    "detectors": [
+      { "type": "VIEWID_RES_NAME", "value": "VideoTab" },
+      { "type": "FINDBYID", "value": "com.twitter.android:id/mediacontroller_progress" }
+    ]
+  },
+  {
+    "id": "reddit_watch",
+    "name": "Reddit Watch Feed",
+    "category": "Social Networks",
+    "packageName": "com.reddit.frontpage",
+    "defaultBlockMode": "PRESS_BACK",
+    "enabledByDefault": true,
+    "detectors": [
+      { "type": "VIEWID_RES_NAME", "value": "content_video_view" },
+      { "type": "FINDBYID", "value": "com.reddit.frontpage:id/content_video_view" }
+    ]
+  },
+  {
+    "id": "linkedin_watch",
+    "name": "LinkedIn Video Feed",
+    "category": "Social Networks",
+    "packageName": "com.linkedin.android",
+    "defaultBlockMode": "PRESS_BACK",
+    "enabledByDefault": true,
+    "detectors": [
+      { "type": "FINDBYID", "value": "com.linkedin.android:id/media_viewer_actor_bottom" },
+      { "type": "VIEWID_RES_NAME", "value": "media_viewer_actor_bottom" }
+    ]
+  },
+  {
+    "id": "vk_clips",
+    "name": "VK Clips",
+    "category": "Short Video",
+    "packageName": "com.vkontakte.android",
+    "defaultBlockMode": "PRESS_BACK",
+    "enabledByDefault": true,
+    "detectors": [
+      { "type": "FINDBYID", "value": "com.vkontakte.android:id/clip_owner_name_scrollable" },
+      { "type": "VIEWID_RES_NAME", "value": "clip_owner_name_scrollable" }
+    ]
+  },
+  {
+    "id": "rednote_xhs",
+    "name": "RedNote (Xiaohongshu)",
+    "category": "Short Video",
+    "packageName": "com.xingin.xhs",
+    "defaultBlockMode": "PRESS_BACK",
+    "enabledByDefault": true,
+    "detectors": [
+      { "type": "FINDBYID", "value": "com.xingin.xhs:id/noteContentText" },
+      { "type": "VIEWID_RES_NAME", "value": "noteContentText" }
+    ]
+  },
+  {
+    "id": "bilibili_stories",
+    "name": "Bilibili Stories",
+    "category": "Video & Streaming",
+    "packageName": "tv.danmaku.bili",
+    "defaultBlockMode": "PRESS_BACK",
+    "enabledByDefault": true,
+    "detectors": [
+      { "type": "FINDBYID", "value": "tv.danmaku.bili:id/story_ctrl_router" },
+      { "type": "VIEWID_RES_NAME", "value": "story_ctrl_router" }
+    ]
+  },
+  {
+    "id": "pinterest_watch",
+    "name": "Pinterest Watch TV",
+    "category": "Social Networks",
+    "packageName": "com.pinterest",
+    "defaultBlockMode": "PRESS_BACK",
+    "enabledByDefault": true,
+    "detectors": [
+      { "type": "FINDBYID", "value": "com.pinterest:id/closeup_video_container" },
+      { "type": "VIEWID_RES_NAME", "value": "closeup_video_container" }
+    ]
+  },
+  {
+    "id": "threads_feed",
+    "name": "Threads Media Feed",
+    "category": "Social Networks",
+    "packageName": "com.instagram.barcelona",
+    "defaultBlockMode": "PRESS_BACK",
+    "enabledByDefault": false,
+    "detectors": [
+      { "type": "FINDBYID", "value": "com.instagram.barcelona:id/media_video_scrubber" },
+      { "type": "VIEWID_RES_NAME", "value": "media_video_scrubber" }
+    ]
+  },
+  {
+    "id": "telegram_stories",
+    "name": "Telegram Stories",
+    "category": "Messaging & Stories",
+    "packageName": "org.telegram.messenger",
+    "defaultBlockMode": "PRESS_BACK",
+    "enabledByDefault": false,
+    "detectors": [
+      { "type": "CONT_DESC", "value": "Story Viewer" },
+      { "type": "VIEWID_RES_NAME", "value": "story_viewer_container" }
+    ]
+  },
+  {
+    "id": "kwai_video",
+    "name": "Kwai Short Video",
+    "category": "Short Video",
+    "packageName": "com.kwai.video",
+    "defaultBlockMode": "KILL_APP",
+    "enabledByDefault": true,
+    "detectors": [
+      { "type": "FINDBYID", "value": "com.kwai.video:id/slide_play_view_pager" },
+      { "type": "VIEWID_RES_NAME", "value": "slide_play_view_pager" }
+    ]
+  },
+  {
+    "id": "likee_video",
+    "name": "Likee Short Video",
+    "category": "Short Video",
+    "packageName": "video.like",
+    "defaultBlockMode": "KILL_APP",
+    "enabledByDefault": true,
+    "detectors": [
+      { "type": "FINDBYID", "value": "video.like:id/video_view_pager" },
+      { "type": "VIEWID_RES_NAME", "value": "video_view_pager" }
+    ]
+  },
+  {
+    "id": "moj_shorts",
+    "name": "Moj Short Videos",
+    "category": "Short Video",
+    "packageName": "in.mohalla.video",
+    "defaultBlockMode": "KILL_APP",
+    "enabledByDefault": true,
+    "detectors": [
+      { "type": "FINDBYID", "value": "in.mohalla.video:id/exo_subtitles" },
+      { "type": "VIEWID_RES_NAME", "value": "exo_subtitles" }
+    ]
+  },
+  {
+    "id": "josh_shorts",
+    "name": "Josh Short Videos",
+    "category": "Short Video",
+    "packageName": "com.eterno.shortvideos",
+    "defaultBlockMode": "KILL_APP",
+    "enabledByDefault": true,
+    "detectors": [
+      { "type": "FINDBYID", "value": "com.eterno.shortvideos:id/player_view" },
+      { "type": "VIEWID_RES_NAME", "value": "player_view" }
+    ]
+  },
+  {
+    "id": "sharechat_shorts",
+    "name": "ShareChat Video",
+    "category": "Short Video",
+    "packageName": "in.mohalla.sharechat",
+    "defaultBlockMode": "PRESS_BACK",
+    "enabledByDefault": true,
+    "detectors": [
+      { "type": "FINDBYID", "value": "in.mohalla.sharechat:id/video_player_container" },
+      { "type": "VIEWID_RES_NAME", "value": "video_player_container" }
+    ]
+  },
+  {
+    "id": "twitch_clips",
+    "name": "Twitch Discovery Clips",
+    "category": "Video & Streaming",
+    "packageName": "tv.twitch.android.app",
+    "defaultBlockMode": "PRESS_BACK",
+    "enabledByDefault": false,
+    "detectors": [
+      { "type": "FINDBYID", "value": "tv.twitch.android.app:id/clips_swipe_pager" },
+      { "type": "VIEWID_RES_NAME", "value": "clips_swipe_pager" }
+    ]
+  },
+  {
+    "id": "netflix_fast_laughs",
+    "name": "Netflix Fast Laughs",
+    "category": "Video & Streaming",
+    "packageName": "com.netflix.mediaclient",
+    "defaultBlockMode": "PRESS_BACK",
+    "enabledByDefault": true,
+    "detectors": [
+      { "type": "FINDBYID", "value": "com.netflix.mediaclient:id/fast_laughs_sheet" },
+      { "type": "VIEWID_RES_NAME", "value": "fast_laughs_sheet" }
+    ]
+  },
+  {
+    "id": "spotify_clips",
+    "name": "Spotify Vertical Clips",
+    "category": "Video & Streaming",
+    "packageName": "com.spotify.music",
+    "defaultBlockMode": "PRESS_BACK",
+    "enabledByDefault": false,
+    "detectors": [
+      { "type": "FINDBYID", "value": "com.spotify.music:id/watch_feed_pager" },
+      { "type": "VIEWID_RES_NAME", "value": "watch_feed_pager" }
+    ]
+  },
+  {
+    "id": "chrome_web_shorts",
+    "name": "Chrome Browser Shorts",
+    "category": "Browsers",
+    "packageName": "com.android.chrome",
+    "defaultBlockMode": "PRESS_BACK",
+    "enabledByDefault": true,
+    "detectors": [
+      { "type": "TEXT_CONTAINS", "value": "youtube.com/shorts/" },
+      { "type": "TEXT_CONTAINS", "value": "instagram.com/reels/" },
+      { "type": "TEXT_CONTAINS", "value": "tiktok.com/@" }
+    ]
+  },
+  {
+    "id": "brave_web_shorts",
+    "name": "Brave Browser Shorts",
+    "category": "Browsers",
+    "packageName": "com.brave.browser",
+    "defaultBlockMode": "PRESS_BACK",
+    "enabledByDefault": true,
+    "detectors": [
+      { "type": "TEXT_CONTAINS", "value": "youtube.com/shorts/" },
+      { "type": "TEXT_CONTAINS", "value": "instagram.com/reels/" },
+      { "type": "TEXT_CONTAINS", "value": "tiktok.com/@" }
+    ]
+  },
+  {
+    "id": "firefox_web_shorts",
+    "name": "Firefox Browser Shorts",
+    "category": "Browsers",
+    "packageName": "org.mozilla.firefox",
+    "defaultBlockMode": "PRESS_BACK",
+    "enabledByDefault": true,
+    "detectors": [
+      { "type": "TEXT_CONTAINS", "value": "youtube.com/shorts/" },
+      { "type": "TEXT_CONTAINS", "value": "instagram.com/reels/" },
+      { "type": "TEXT_CONTAINS", "value": "tiktok.com/@" }
+    ]
+  }
+]
